@@ -24,8 +24,7 @@ namespace WebService
         public Startup(IConfiguration configuration, IHostEnvironment env)
         {
             Configuration = configuration;
-            //var root = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            //var dir = AppDomain.CurrentDomain.BaseDirectory;
+
         }
 
         public IConfiguration Configuration { get; }

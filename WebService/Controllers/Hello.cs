@@ -12,12 +12,9 @@ namespace WebService.Controllers
     [Route("[controller]")]
     public class HelloController : ControllerBase
     {
-        private readonly IDataManager dataManager;
-
-
-        public HelloController(ILogger<HelloController> logger, IDataManager dataManager)
+        public HelloController(ILogger<HelloController> logger)
         {
-            this.dataManager = dataManager;
+            //
         }
 
         [HttpGet]
